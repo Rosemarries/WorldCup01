@@ -1,4 +1,4 @@
-/*
+
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 #include<string.h>
@@ -67,7 +67,7 @@ int main() {
 	/*for (int i = 0; i < 4; i++) {
 		printf("%s %d %d %d = %d\n", team[i].name, team[i].score, team[i].win, team[i].lose, team[i].rank);
 	}*/
-/*	for (int i = 0; i < 4; i++) {
+	for (int i = 0; i < 4; i++) {
 		for (int j = 0; j < 4; j++) {
 			if (team[j].rank == i) {
 				printf("%s %d", team[j].name, team[j].score);
@@ -75,4 +75,4 @@ int main() {
 			}
 		}
 	}
-}*/
+}
